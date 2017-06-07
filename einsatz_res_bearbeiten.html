@@ -55,11 +55,23 @@
         </div>
       </div>
       <div class="row">
+        <div class="col-md-12">
+          <div class="row">
+            <div class="col-md-4">
+              <p class="">Einsatzstatus</p>
+            </div>
+            <div class="col-md-8">
+              <p class="bg-success">aktiv (Bsp. gekündigt per 15.08.2017)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
         <div class="col-md-4">
           <p class="lead"><b>Einsatzbezeichnung</b></p>
         </div>
         <div class="col-md-8">
-          <p class="lead bg-primary"><b>Ferienaushilfen</b></p>
+          <p class="lead"><b>Ferienaushilfen</b></p>
         </div>
       </div>
       <div class="row">
@@ -281,13 +293,35 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <a class="btn btn-primary text-center" href="#" data-toggle="modal" data-target="#searchnow">Einsatz anlegen<i class="fa fa-check fa-fw"></i></a>
+          <a class="btn btn-primary text-center" href="#" data-toggle="modal" data-target="#searchnow">Speichern &amp; Zurück zum Einsatz
+            <br> </a>
         </div>
       </div>
     </div>
   </div>
-  <div class="py-5 text-center">
-    <div class="container"></div>
+  <div class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="">Ressource Kündigen</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="bg-faded py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <form>
+            <fieldset class="form-group"> <label for="exampleInputEmail1">Kündigung per Datum (Kündigungsfristen beachten!)</label>
+              <input type="text" class="form-control" id="exampleInputEmail1" placeholder="15.07.2015"> </fieldset>
+            <fieldset class="form-group"> <label for="exampleInputEmail1">Bemerkung</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Kein Bedarf mehr"> </fieldset>
+            <button type="submit" class="btn btn-danger">Kündigen</button>
+          </form>
+        </div>
+      </div>
+    </div>
   </div>
   <div class="py-5">
     <div class="container text-right">
