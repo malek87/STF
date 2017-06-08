@@ -1,0 +1,316 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="https://pingendo.com/assets/bootstrap/bootstrap-4.0.0-alpha.6.css" type="text/css"> </head>
+
+<body>
+  <nav class="navbar navbar-expand-md navbar-light bg-faded">
+    <div class="container">
+      <a class="navbar-brand" href="#">WORK2DO</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav ">
+          <li class="nav-item active">
+            <a class="nav-link disabled" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Bedarfsmeldungen</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Einsätze</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Abrechnen</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-9 col-12">
+          <h1 class="text-primary">Bedarfsmeldungen</h1>
+        </div>
+        <div class="col-md-2 col-6">
+          <a href="#" class="btn btn-primary" data-toggle="modal" id="button-bedarfsmeldung" data-target="#modal-bedarfsmeldung">+ Bedarfsmeldung</a>
+        </div>
+        <div class="text-right col-md-1 col-6">
+          <a href="einsatz_erfassen.html" class="btn btn-outline-primary text-right">+ Einsatz</a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12"></div>
+      </div>
+    </div>
+  </div>
+  <div class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="">Bedarfsmeldungen aus Abteilung XY</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="row">
+                <div class="col-md-3">
+                  <p class=""><b>Beginn Datum / Verantwortlicher</b></p>
+                </div>
+                <div class="col-md-3">
+                  <p class=""><b>Bezeichnung</b></p>
+                </div>
+                <div class="col-md-3">
+                  <p class=""><b>Ressourcen</b></p>
+                </div>
+                <div class="col-md-3"></div>
+              </div>
+              <div class="row">
+                <div class="col-md-3">
+                  <p class="">ab 07.08.17 / P. Mustermann</p>
+                </div>
+                <div class="col-md-3">
+                  <p class="">Ferienaushilfen</p>
+                </div>
+                <div class="col-md-3">
+                  <p class="">2 Anlehre (Anlehre), 1 Maurer (EFZ)
+                    <br> </p>
+                </div>
+                <div class="col-md-3">
+                  <div class="row">
+                    <div class="col-md-4"></div>
+                    <div class="col-md-8">
+                      <a href="" class="btn btn-outline-primary" data-toggle="modal" data-target="#bedarfsmeldung-freigabe">bearbeiten</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="row">
+                    <div class="col-md-3">
+                      <p class="">ab 20.08.17 / M. Müller</p>
+                    </div>
+                    <div class="col-md-3">
+                      <p class="">Spezialauftrag</p>
+                    </div>
+                    <div class="col-md-3">
+                      <p class="">1 Elektriker</p>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="row">
+                        <div class="col-md-4"></div>
+                        <div class="col-md-8">
+                          <a href="einsatz_geplant_bearbeiten.html" class="btn btn-outline-primary" data-toggle="modal" data-target="#bedarfsmeldung-freigabe">bearbeiten</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <hr class=""> </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-5">
+    <div class="container text-right">
+      <div class="row">
+        <div class="col-md-12">
+          <hr class=""> </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <p class="text-left">WORK2DO für AWALF AG</p>
+        </div>
+        <div class="col-md-6">
+          <p class="">Support | Rechtliche Hinweise | Datenschutz | Kontakt</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal" id="bedarfsmeldung-freigabe">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="">Bedarfsmeldung Freigabe</h2>
+          <button class="close" data-dismiss="modal" type="button">×</button>
+        </div>
+        <div class="modal-body bg-faded">
+          <div class="row">
+            <div class="col-md-3 col-sm-3 col-6">
+              <ul class="list-inline text-gray-dark">
+                <li class="list-inline-item">Arbeit</li>
+              </ul>
+            </div>
+            <div class="col-md-3 col-sm-3 col-6">
+              <ul class="list-inline">
+                <li class="list-inline-item text-gray-dark">Qualifikation</li>
+              </ul>
+            </div>
+            <div class="col-sm-3 col-md-3 col-6">
+              <ul class="list-inline">
+                <li class="list-inline-item text-gray-dark">Anzahl</li>
+              </ul>
+            </div>
+            <div class="col-md-3 col-sm-3 col-6">
+              <ul class="list-inline">
+                <li class="list-inline-item text-gray-dark">Pensum</li>
+              </ul>
+            </div>
+          </div>
+          <hr class="">
+          <div class="row">
+            <div class="col-md-3 col-sm-3 col-6">
+              <div class="btn-group btn-group-sm my-2">
+                <button class="btn btn-outline-primary dropdown-toggle" data-toggle="dropdown">Maler</button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Maurer</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Schreiner</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-3 col-6">
+              <div class="btn-group btn-group-sm my-2">
+                <button class="btn btn-outline-primary dropdown-toggle" data-toggle="dropdown">Hilfsarbeiter</button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">EFZ</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Anlehre</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3 col-md-3 col-6">
+              <div class="btn-group btn-group-sm my-2">
+                <button class="btn btn-outline-primary dropdown-toggle" data-toggle="dropdown">3</button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">2</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">1</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-3 col-6">
+              <div class="btn-group btn-group-sm my-2">
+                <button class="btn btn-outline-primary dropdown-toggle" data-toggle="dropdown">100%</button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">80%</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">50%</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr class="">
+          <div class="row">
+            <div class="col-md-3 col-sm-3 col-6">
+              <div class="btn-group btn-group-sm my-2">
+                <button class="btn btn-outline-primary dropdown-toggle" data-toggle="dropdown"> Maurer </button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Maler</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Schreiner</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-3 col-6">
+              <div class="btn-group btn-group-sm my-2">
+                <button class="btn btn-outline-primary dropdown-toggle" data-toggle="dropdown">EFZ</button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Hilfsarbeiter</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Anlehre</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3 col-md-3 col-6">
+              <div class="btn-group btn-group-sm my-2">
+                <button class="btn btn-outline-primary dropdown-toggle" data-toggle="dropdown">1</button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">2</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">3</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-3 col-6">
+              <div class="btn-group btn-group-sm my-2">
+                <button class="btn btn-outline-primary dropdown-toggle" data-toggle="dropdown">80%</button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">100%</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">50%</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr class="">
+          <div class="row">
+            <div class="col-md-12 text-right">
+              <a href="#" class="btn m-3 btn-primary">+ hinzufügen</a>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <p class="p-2"><b>Einsatzbeginn:</b>&nbsp;
+              <br>25.04.2017 - 08.00 Uhr
+              <br><b>Einsatzende:</b>
+              <br>offen
+              <br><b>Hinweistext:</b>&nbsp;
+              <br>Sicherheitschuhe tragen</p>
+          </div>
+          <div class="col-md-6">
+            <ul class="list-inline">
+              <li class="list-inline-item p-2"><b>Einsatzort:</b>
+                <br>AWALF AG
+                <br>Haupstrasse 22
+                <br>9000 St. Gallen
+                <br>
+                <br><b>Einsatzverantwortlicher:</b>
+                <br>Jonny Müller&nbsp;
+                <br>071 888 88 88
+                <br> </li>
+            </ul>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a class="btn btn-danger" data-dismiss="modal">ablehnen</a>
+          <a class="btn text-white btn-success" href="einsatz_erfassen.html">annehmen</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal" id="searchnow">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title text-left">Einsatzressourcen suchen</h4>
+        </div>
+        <div class="modal-body">
+          <p>Möchten Sie die Suche nach Ressourcen umgehend starten?</p>
+        </div>
+        <div class="modal-footer">
+          <a class="btn btn-default" data-dismiss="modal">später</a>
+          <a class="btn btn-primary text-white" data-toggle="" data-target="searchnow" href="einsatz_erfassen_res.html">jetzt Ressourcen auswählen</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+  <script src="https://pingendo.com/assets/bootstrap/bootstrap-4.0.0-alpha.6.min.js"></script>
+</body>
+
+</html>
