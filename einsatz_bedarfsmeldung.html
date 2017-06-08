@@ -85,7 +85,7 @@
                   <div class="row">
                     <div class="col-md-4"></div>
                     <div class="col-md-8">
-                      <a href="" class="btn btn-outline-primary" data-toggle="modal" data-target="#modal-bedarfsmeldung">bearbeiten</a>
+                      <a href="" class="btn btn-outline-primary" data-toggle="modal" data-target="#bedarfsmeldung-freigabe">bearbeiten</a>
                     </div>
                   </div>
                 </div>
@@ -106,7 +106,7 @@
                       <div class="row">
                         <div class="col-md-4"></div>
                         <div class="col-md-8">
-                          <a href="einsatz_geplant_bearbeiten.html" class="btn btn-outline-primary" data-toggle="modal" data-target="#modal-bedarfsmeldung">bearbeiten</a>
+                          <a href="einsatz_geplant_bearbeiten.html" class="btn btn-outline-primary" data-toggle="modal" data-target="#bedarfsmeldung-freigabe">bearbeiten</a>
                         </div>
                       </div>
                     </div>
@@ -139,11 +139,11 @@
       </div>
     </div>
   </div>
-  <div class="modal" id="modal-bedarfsmeldung">
+  <div class="modal" id="bedarfsmeldung-freigabe">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h2 class="" contenteditable="true">Bedarfsmeldung</h2>
+          <h2 class="">Bedarfsmeldung Freigabe</h2>
           <button class="close" data-dismiss="modal" type="button">×</button>
         </div>
         <div class="modal-body bg-faded">
@@ -286,8 +286,8 @@
           </div>
         </div>
         <div class="modal-footer">
-          <a class="btn btn-default" data-dismiss="modal">abbrechen</a>
-          <a class="btn text-white btn-warning">senden</a>
+          <a class="btn btn-danger" data-dismiss="modal">ablehnen</a>
+          <a class="btn text-white btn-success" href="einsatz_erfassen.html">annehmen</a>
         </div>
       </div>
     </div>
